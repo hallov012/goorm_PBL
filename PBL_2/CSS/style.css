@@ -1,0 +1,81 @@
+:root {
+  --color-text: #444444;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(247, 194, 229);
+  background: linear-gradient(
+    180deg,
+    rgb(250, 213, 238) 0%,
+    rgba(213, 193, 222, 1) 46%,
+    rgb(184, 233, 243) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+}
+
+.overlay {
+  width: 30%;
+  min-width: 320px;
+  height: 70%;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px rgba(161, 161, 161, 0.25);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-btn {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-btn i {
+  font-size: 1.1rem;
+  position: relative;
+  bottom: 1px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.todo-wrap {
+  display: flex;
+  width: 100%;
+}
+
+.todo-left {
+  width: 90%;
+}
+
+.todo-text {
+  margin-left: 0.5rem;
+}
+
+.todo-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.fix-btn,
+.remove-btn {
+  cursor: pointer;
+}
