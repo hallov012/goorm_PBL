@@ -23,7 +23,6 @@ const addTodo = (todo, idx) => {
 
   const todoText = document.createElement("span");
   todoText.classList.add("todo-text");
-  console.log(todo.text);
   todoText.innerText = todo.text;
 
   todoLeft.appendChild(todoCheck);
