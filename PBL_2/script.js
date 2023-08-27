@@ -64,7 +64,14 @@ const saveTodo = () => {
 };
 
 const savedTodo = localStorage.getItem("todos");
-const todos = saveTodo ? JSON.parse(savedTodo) : [];
+const todos = savedTodo
+  ? JSON.parse(savedTodo)
+  : [
+      {
+        text: "javascript 공부",
+        checked: false,
+      },
+    ];
 renderTodos();
 
 /* 새로운 todo 추가 */

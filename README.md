@@ -6,4 +6,4 @@
 
 ### 2. (0824-0828) 자바스크립트를 이용해서 Todo 앱 만들기
 
-[결과물 링크]()
+[결과물 링크](https://64eaf840ee3f7a34acb71ddd--earnest-cocada-4504e6.netlify.app/)
