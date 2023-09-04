@@ -1,3 +1,10 @@
+:root {
+  --blue-color: rgb(75, 94, 240);
+  --light-blue-color: rgb(169, 178, 248);
+  --gray-color: rgb(222, 222, 222);
+  --border-color: rgb(204, 204, 204);
+}
+
 .export-btn {
   cursor: pointer;
   background-color: var(--blue-color);
@@ -17,4 +24,43 @@
 
 .cell-info {
   display: flex;
+}
+
+.table {
+  border: 1px solid var(--border-color);
+  width: fit-content;
+}
+
+.row {
+  display: flex;
+}
+
+.row + .row {
+  border-top: 1px solid var(--border-color);
+}
+
+.idx-info {
+  width: 70px;
+  text-align: center;
+  background-color: var(--gray-color);
+  padding: 0.8rem 1rem;
+  border-right: 1px solid var(--border-color);
+}
+
+.row > input {
+  width: 70px;
+  border: none;
+  padding: 0.8rem 1rem;
+}
+
+.row > input + input {
+  border-left: 1px solid var(--border-color);
+}
+
+.row > input:focus {
+  outline: none;
+}
+
+.selected {
+  background: var(--light-blue-color);
 }
