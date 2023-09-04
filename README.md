@@ -13,3 +13,7 @@
 [결과물 링크](https://64f02e26d59d0036209e2e1c--unrivaled-unicorn-9c5483.netlify.app/)
 
 - GitHub API 요청 횟수 제한으로 인한 오류 발생 가능
+
+### 4. 자바스크립트를 이용해서 Spread Sheet 앱 만들기
+
+[결과물 링크](https://64f544b27a778c75ef99033a--prismatic-cactus-ab7a48.netlify.app/)
